@@ -1,0 +1,7 @@
+# Keep the archived TLE files byte-exact (CelesTrak serves CRLF); their SHA-256 is cited in the manuscript.
+data/tle/* -text
+* text=auto
+*.py  text eol=lf
+*.md  text eol=lf
+*.cff text eol=lf
+SHA256SUMS text eol=lf

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or the archived TLE snapshot, please cite it as below."
+title: "leo-uav-tle-traces: TLE-driven Starlink link timelines for a LEO UAV control link"
+type: software
+authors:
+  - family-names: Chen
+    given-names: Nan-Tien
+  - family-names: Wei
+    given-names: Yu-Chih
+version: 1.0.0
+date-released: 2026-10-08
+license: MIT
+repository-code: "https://github.com/Nantien1013/leo-uav-tle-traces"
+keywords:
+  - Starlink
+  - LEO satellite networks
+  - TLE
+  - SGP4
+  - UAV control link
+  - network emulation

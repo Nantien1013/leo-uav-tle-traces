@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+# Built traces (about 230 MB); rebuild them with tracegen.build_all and check SHA256SUMS.
+data/traces/

@@ -1,0 +1,7 @@
+# Versions used to verify that the traces rebuild byte-identically (2026-10-08).
+skyfield==1.55
+sgp4==2.27
+numpy==2.5.3
+pandas==3.0.5
+# tests only
+pytest
