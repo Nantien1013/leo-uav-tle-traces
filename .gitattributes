@@ -1,7 +1,9 @@
-# Keep the archived TLE files byte-exact (CelesTrak serves CRLF); their SHA-256 is cited in the manuscript.
-data/tle/* -text
+# Later lines override earlier ones, so the general rule comes first.
 * text=auto
 *.py  text eol=lf
 *.md  text eol=lf
 *.cff text eol=lf
 SHA256SUMS text eol=lf
+# Keep the archived TLE files byte-exact (CelesTrak serves CRLF); their SHA-256 is cited in the manuscript.
+# v1.0.0 had this rule first, so Git stored the files with LF line endings.
+data/tle/* -text

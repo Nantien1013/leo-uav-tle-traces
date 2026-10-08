@@ -1,5 +1,7 @@
 # leo-uav-tle-traces
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23243317.svg)](https://doi.org/10.5281/zenodo.23243317)
+
 Link timelines for a UAV on a Starlink LEO link, built from a real Starlink TLE snapshot. This repository holds the
 snapshot, the code that turns it into timelines, and the SHA-256 of every timeline used in the manuscript
 *A TLE-Driven Testbed for Post-Quantum TLS on LEO UAV Control Links: Deadline-Based Establishment Success over Real
@@ -96,4 +98,13 @@ Code: MIT, see `LICENSE`. Data: see "Data sources".
 
 ## Citation
 
-See `CITATION.cff`. Please also cite the manuscript once it is published.
+Archived on Zenodo. All versions: [10.5281/zenodo.23243317](https://doi.org/10.5281/zenodo.23243317) (always
+resolves to the latest version). Cite the version DOI of the release you use; see `CITATION.cff`. Please also cite
+the manuscript once it is published.
+
+## Versions
+
+| Version | Notes |
+|---|---|
+| v1.0.1 | Same code and data as v1.0.0. The files in `data/tle/` are stored byte-exact (CRLF line endings, as served by CelesTrak), so `starlink-20260919T0834Z.tle` has the SHA-256 cited in the manuscript, `82205609...ae174`. |
+| v1.0.0 ([10.5281/zenodo.23243318](https://doi.org/10.5281/zenodo.23243318)) | A `.gitattributes` rule in the wrong order made Git store `data/tle/` with LF line endings, so the archived snapshot has SHA-256 `2ac5c536...dc8e6` instead. Converting its line endings to CRLF restores the cited hash. Use v1.0.1. |

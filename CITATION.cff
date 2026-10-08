@@ -7,8 +7,13 @@ authors:
     given-names: Nan-Tien
   - family-names: Wei
     given-names: Yu-Chih
-version: 1.0.0
-date-released: 2026-10-08
+version: 1.0.1
+date-released: 2026-10-09
+doi: 10.5281/zenodo.23243317
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23243317
+    description: Concept DOI (all versions)
 license: MIT
 repository-code: "https://github.com/Nantien1013/leo-uav-tle-traces"
 keywords:
